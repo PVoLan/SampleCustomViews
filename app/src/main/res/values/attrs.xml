@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProfileItemView">
+        <attr name="piv_title" format="string"/>
+        <attr name="piv_value" format="string"/>
+        <attr name="piv_icon" format="reference"/>
+    </declare-styleable>
+
+</resources>
