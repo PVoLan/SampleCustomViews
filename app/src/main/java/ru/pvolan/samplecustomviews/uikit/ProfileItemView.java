@@ -3,9 +3,7 @@ package ru.pvolan.samplecustomviews.uikit;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
-import android.os.Parcelable;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -50,8 +48,6 @@ public class ProfileItemView extends ConstraintLayout {
         textTitle = findViewById(R.id.textTitle);
         textValue = findViewById(R.id.textValue);
 
-        //setSaveEnabled(false);
-
         TypedArray ta = getContext().obtainStyledAttributes(attrs, R.styleable.ProfileItemView);
 
         try {
@@ -94,15 +90,4 @@ public class ProfileItemView extends ConstraintLayout {
         imageIcon.setImageDrawable(drawable);
     }
 
-
-    @Nullable
-    @Override
-    protected Parcelable onSaveInstanceState() {
-        return super.onSaveInstanceState();
-    }
-
-    @Override
-    protected void onRestoreInstanceState(Parcelable state) {
-        super.onRestoreInstanceState(state);
-    }
 }
