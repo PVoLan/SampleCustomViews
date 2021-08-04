@@ -87,7 +87,6 @@ public class WormIndicatorView extends View {
         float totalWidth = itemCount * circleDiameter
                 + (itemCount - 1) * circlePadding
                 + circleEnlargement;
-
         float totalHeight = circleDiameter;
 
         float totalX = cx - (totalWidth / 2);
