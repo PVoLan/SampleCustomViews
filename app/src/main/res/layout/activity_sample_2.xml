@@ -8,16 +8,18 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/button1"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sample 1 - views combined"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ff0"/>
 
-    <Button
-        android:id="@+id/button2"
+    <ru.pvolan.samplecustomviews.uikit.vp_indicator.WormIndicatorView
+        android:id="@+id/indicatorView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sample 2 - canvas"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
 
 </LinearLayout>
