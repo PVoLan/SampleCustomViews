@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.pvolan.samplecustomviews.uikit.chesslayout.ChessLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, world!"
+        android:textColor="#f00"
+        android:textSize="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, world 2"
+        android:textSize="30dp"
+        android:background="#f00"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, world 3"
+        android:textSize="30dp"
+        android:background="#0f0"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, world 4"
+        android:textSize="30dp"
+        android:background="#77f"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, world 5"
+        android:textSize="30dp"
+        android:background="#ff0"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, world 6"
+        android:textSize="30dp"
+        android:background="#f0f"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, world 7"
+        android:textSize="30dp"
+        android:background="#ff0"/>
+
+
+</ru.pvolan.samplecustomviews.uikit.chesslayout.ChessLayout>

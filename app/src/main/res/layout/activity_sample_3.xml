@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/touchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f00"/>
+
+    <ru.pvolan.samplecustomviews.uikit.ballview.BallView
+        android:id="@+id/ballView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+    <ru.pvolan.samplecustomviews.uikit.ballview.BallView
+        android:id="@+id/ballView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ru.pvolan.samplecustomviews.uikit.ballview.BallView
+        android:id="@+id/ballView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ru.pvolan.samplecustomviews.uikit.ballview.BallView
+        android:id="@+id/ballView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ru.pvolan.samplecustomviews.uikit.vp_indicator.WormIndicatorView
+        android:id="@+id/wormIndicatorView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+</LinearLayout>

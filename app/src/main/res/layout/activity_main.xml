@@ -20,4 +20,16 @@
         android:layout_height="wrap_content"
         android:text="Sample 2 - canvas"/>
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample 3 - animations"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample 4 - custom drawable and viewgroup"/>
+
 </LinearLayout>

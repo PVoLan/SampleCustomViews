@@ -10,6 +10,8 @@ import android.view.View;
 import ru.pvolan.samplecustomviews.sample1.Sample1Activity;
 import ru.pvolan.samplecustomviews.sample2.MyPagerAdapter;
 import ru.pvolan.samplecustomviews.sample2.Sample2Activity;
+import ru.pvolan.samplecustomviews.sample3.Sample3Activity;
+import ru.pvolan.samplecustomviews.sample4.Sample4Activity;
 import ru.pvolan.samplecustomviews.uikit.ProfileItemView;
 import ru.pvolan.samplecustomviews.uikit.vp_indicator.WormIndicatorView;
 import ru.pvolan.samplecustomviews.uikit.vp_indicator.WormPageListener;
@@ -34,6 +36,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Sample2Activity.class));
             }
         });
+
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Sample3Activity.class));
+            }
+        });
+
+        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Sample4Activity.class));
+            }
+        });
+
 
     }
 
